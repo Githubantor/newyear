@@ -21,10 +21,59 @@
             text-align: center;
         }
         
-        .footer {
-            background-color: #000000;
-            color: #fff;
+        footer{
+            width: 90%;
+            height: 450px;
+            background-color: black;
+            color: white;
+            margin-top: 50px;
+            margin-left: 60px;
+        }
+        .foot1{
+            display: flex;
+            justify-content: space-between;
+            margin-right: 200px;
+            padding: 40px;
+        }
+        .horizental{
+            width: 70%;
+            height: 30px;
+            border: none;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            background-color: rgb(43, 41, 41);
+        }
+        .sobi{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+
+        }
+        .sobi .sobi1{
             padding: 10px;
-            text-align: center;
-            height: 500px;
+        }
+        .sobi .sobi2{
+            padding: 10px;
+        }
+        .sobi .sobi3{
+            padding: 10px;
+        }
+        .horizental1{
+            width: 70px;
+            height: 3px;
+            border: none;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            background-color: rgb(43, 41, 41);
+        }
+        .last1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 120px;
         }
